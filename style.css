@@ -119,3 +119,48 @@ footer{
     color: white;
 }
 /* lv2 popup ends */
+
+/* Responsive Part */
+
+@media(max-width: 768px){
+    body{
+        padding: 20px;
+        padding-bottom: 20px;
+
+    }
+    #logo{
+        padding-left:1rem;
+        width: 20%;
+        height: 12vh;
+        
+    }
+
+    .page-header{
+        flex-direction: column;
+
+    }
+    .project-title{
+        font-size: 32px;
+        }
+        .carousel-slide{
+           height:  calc(100vh - 319px);
+            
+        }
+        .popup-content{
+            width: 80%;
+            margin: 27% 50% 5% 20% ;
+            left: 1rem;
+            right: 1rem;
+            
+        }
+       .close{
+        position: absolute;
+        top: 25rem;
+        right: 80px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+       }
+        
+           
+}
